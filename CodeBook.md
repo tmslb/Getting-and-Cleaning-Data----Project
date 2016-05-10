@@ -10,7 +10,8 @@ This code book summarizes the resulting data fields in ucitidy.txt file:
 4. features_wanted field uses the grep function to extract only the measurements of mean and standard deviation
 5. gsub function was also used to make transformations to the data
 6. Additionally, I also used descriptive activity names and labels in lines 54 and 55
-7. Finally, merged_data.mean field contains the relevant averages (asked in the project) which will be later stored in a .txt file. </br>
+7. Then I Wrote the cleaned Data out to "ucitidy0.txt" file in current working directory.
+8. Finally, generated a second independent tidy data set with the average of each measurement for each activity and each subject. This data was stored as "ucitidy.txt </br>
 
 Identifiers
 
