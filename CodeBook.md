@@ -4,97 +4,23 @@
 
 This code book summarizes the resulting data fields in tidy.txt.
 
+1. train, train_activities, train_subjects, test, test_activities, test_subjects contain the data from the downloaded files </br>
+2. train data is made up of train, train_activities, train_subjects and test data is made up of test, test_activities, test_subjects </br>
+3. Train and test combine to form merged data </br>
+4. features_wanted uses the grep function to extract only the measurements of mean and standard deviation
+5. Used descriptive activity names and labels in lines 54 and 55
+4. Finally, merged_data.mean contains the relevant averages (asked in the project) which will be later stored in a .txt file. </br>
+
 Identifiers
 
-subject - The ID of the test subject<br />
-activity - The type of activity performed when the corresponding measurements were taken<br />
+subject - The ID of the test subject <br />
+activity - The type of activity performed when the corresponding measurements were taken <br />
 
-Measurements<br />
-
-tBodyAccMeanX<br />
-tBodyAccMeanY<br />
-tBodyAccMeanZ<br />
-tBodyAccStdX<br />
-tBodyAccStdY<br />
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
 Activity Labels
 
-WALKING (value 1): subject was walking during the test
-WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-SITTING (value 4): subject was sitting during the test
-STANDING (value 5): subject was standing during the test
-LAYING (value 6): subject was laying down during the test
+WALKING (value 1): subject was walking during the test<br />
+WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test<br />
+WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test<br />
+SITTING (value 4): subject was sitting during the test<br />
+STANDING (value 5): subject was standing during the test<br />
+LAYING (value 6): subject was laying down during the test<br />
