@@ -2,7 +2,7 @@
 
 ##Code Book
 
-This code book summarizes the resulting data fields in ucitidy.txt file:
+This code book summarizes the variables, the data, and any transformations or work that I have performed to clean up the data that is found in the output file : ucitidy.txt file:
 
 1. train, train_activities, train_subjects, test, test_activities, test_subjects contain the data from the downloaded files </br>
 2. train data is made up of train, train_activities, train_subjects and test data is made up of test, test_activities, test_subjects </br>
