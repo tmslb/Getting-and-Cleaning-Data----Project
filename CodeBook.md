@@ -2,15 +2,15 @@
 
 ##Code Book
 
-This code book summarizes the resulting data fields in ucitidy.txt file.
+This code book summarizes the resulting data fields in ucitidy.txt file:
 
 1. train, train_activities, train_subjects, test, test_activities, test_subjects contain the data from the downloaded files </br>
 2. train data is made up of train, train_activities, train_subjects and test data is made up of test, test_activities, test_subjects </br>
 3. Train and test combine to form merged data </br>
-4. features_wanted uses the grep function to extract only the measurements of mean and standard deviation
-5. gsub function was used to make transformations to the data
-6. Used descriptive activity names and labels in lines 54 and 55
-7. Finally, merged_data.mean contains the relevant averages (asked in the project) which will be later stored in a .txt file. </br>
+4. features_wanted field uses the grep function to extract only the measurements of mean and standard deviation
+5. gsub function was also used to make transformations to the data
+6. Additionally, I also used descriptive activity names and labels in lines 54 and 55
+7. Finally, merged_data.mean field contains the relevant averages (asked in the project) which will be later stored in a .txt file. </br>
 
 Identifiers
 
